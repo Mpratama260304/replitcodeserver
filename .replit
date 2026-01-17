@@ -1,4 +1,4 @@
-run = ["bash","-lc","code-server --bind-addr 0.0.0.0:8080 --auth password --disable-telemetry"]
+run = ["bash","-lc","code-server --bind-addr 0.0.0.0:8080 --auth none --disable-telemetry"]
 
 [[ports]]
 localPort = 8080
